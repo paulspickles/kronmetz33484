@@ -11,13 +11,13 @@
   </div>`;
   var HEADER = `<header class="relative border-b-2 border-rim">
     <div class="mx-auto max-w-6xl px-5 py-4 flex items-center justify-between gap-6">
-      <a href="{{root}}" aria-label="LiquidComputerz home" class="logo-link"><img src="{{root}}images/logo.png" width="572" height="107" alt="LiquidComputerz" class="h-9 w-auto"></a>
+      <a href="{{root}}" aria-label="LiquidComputerz home" class="logo-link"><img src="{{root}}images/logo.png" width="572" height="107" alt="LiquidComputerz" class="h-10 md:h-9 lg:h-12 xl:h-14 w-auto"></a>
       <button id="menu-btn" type="button" class="md:hidden p-2 -mr-2 text-gold" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu">
         <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
       </button>
       <nav id="nav" aria-label="Primary" class="hidden md:block absolute md:static left-0 right-0 top-full bg-bg md:bg-transparent border-b-2 border-rim md:border-0 z-40">
         <ul class="mx-auto max-w-6xl px-5 py-3 md:p-0 flex flex-col md:flex-row md:items-center gap-1 md:gap-6 text-sm">
-          
+          <li><a class="block py-2 font-semibold hover:text-gold" href="{{root}}">Home</a></li>
           <li><a class="block py-2 font-semibold hover:text-gold" href="{{root}}tech-news-wpb/">Tech News WPB</a></li>
           <li class="relative group">
             <a class="block py-2 font-semibold hover:text-gold" href="{{root}}#services">Our Services</a>

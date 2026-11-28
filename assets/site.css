@@ -8,8 +8,8 @@
     .logo-link img { position: relative; z-index: 1; transform-origin: center; transition: transform .3s cubic-bezier(.2,.8,.2,1); }
     .logo-link:hover img, .logo-link:focus-visible img { transform: scale(1.18); }
     .logo-link::before, .logo-link::after { content: ""; position: absolute; top: 50%; width: 0; height: 16px; margin-top: -8px; pointer-events: none; background: repeating-linear-gradient(90deg, #e6b25a 0 8px, transparent 8px 12px) 0 0 / 100% 4px no-repeat, repeating-linear-gradient(90deg, #e6b25a 0 8px, transparent 8px 12px) 0 100% / 100% 4px no-repeat, linear-gradient(#e6b25a, #e6b25a) var(--cap) 50% / 6px 100% no-repeat; }
-    .logo-link::before { --cap: 0%; right: calc(100% + 20px); }
-    .logo-link::after { --cap: 100%; left: calc(100% + 23px); }
+    .logo-link::before { --cap: 0%; right: calc(100% + 9% + 3px); }
+    .logo-link::after { --cap: 100%; left: calc(100% + 9% + 6px); }
     @keyframes px-grow { from { width: 0; } to { width: var(--px-w); } }
     @keyframes px-shrink { from { width: var(--px-w); } to { width: 0; } }
     @media (hover: hover) and (min-width: 1024px) {
